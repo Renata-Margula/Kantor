@@ -1,77 +1,84 @@
 html {
-    box-sizing: border-box;
-  }
-  *,
-  ::after,
-  ::before {
-    box-sizing: inherit;
-  }
-  .container {
-    background-image: url("https://img5.goodfon.com/wallpaper/nbig/7/55/coins-stack-metal.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    font-family: "Nunito", sans-serif;
-    max-width: 1000px;
-    margin: auto;
-    padding: 50px;
-  }
-  .form {
-    margin: auto;
-    padding: 50px 50px;
-    background: #f4f7f8;
-    border-radius: 8px;
-  }
-  .form__fieldset {
-    text-align: left;
-    border: none;
-  }
-  .form__legend {
-    text-align: center;
-    font-size: 40px;
-    font-weight: 400;
-    color: #444;
-    text-shadow: 1px 1px 1px #444, 2px 2px 3px;
-  }
-  .form__label {
-    display: inline-block;
-    padding: 20px;
-  }
-  .form__field {
-    padding: 10px;
-    width: 100%;
-    max-width: 500px;
-    border-radius: 2px;
-    float: right;
-    border: none;
-    font-size: 16px;
-    height: auto;
-    background-color: #e8eeef;
-    color: #8a97a0;
-    box-shadow: 0 1px 0 #00000008 inset;
-  }
-  .form__button {
-    display: block;
-    padding: 10px;
-    max-width: 500px;
-    float: right;
-    margin-bottom: 10px;
-    font-size: 18px;
-    color: #fff;
-    background-color: #4bc970;
-    text-align: center;
-    border-radius: 5px;
-    border: 1px solid #3ac162;
-    width: 100%;
-  }
-  .form__result {
-    color: #4bc970;
-  }
-  .footer {
-    background: #f4f7f8;
-    border-radius: 3px;
-    font-size: 12px;
-    padding: 5px;
-  }
-  
+  box-sizing: border-box;
+}
+
+*, ::after, ::before {
+  box-sizing: inherit;
+}
+
+.container {
+  background-image: url("https://img5.goodfon.com/wallpaper/nbig/7/55/coins-stack-metal.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "Nunito", sans-serif;
+  max-width: 1000px;
+  margin: auto;
+  padding: 50px;
+}
+
+.form {
+  margin: auto;
+  padding: 50px 50px;
+  background: #f4f7f8;
+  border-radius: 8px;
+}
+
+.form__fieldset {
+  text-align: left;
+  border: none;
+}
+
+.form__legend {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 400;
+  color: #444;
+  text-shadow: 1px 1px 1px #444, 2px 2px 3px;
+}
+
+.form__label {
+  display: inline-block;
+  padding: 20px;
+}
+
+.form__field {
+  padding: 10px;
+  width: 100%;
+  max-width: 500px;
+  border-radius: 2px;
+  float: right;
+  border: none;
+  font-size: 16px;
+  height: auto;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 #00000008 inset;
+}
+
+.form__button {
+  display: block;
+  padding: 10px;
+  max-width: 500px;
+  float: right;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #4bc970;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid #3ac162;
+  width: 100%;
+}
+
+.form__result {
+  color: #4bc970;
+}
+
+.footer {
+  background: #f4f7f8;
+  border-radius: 3px;
+  font-size: 12px;
+  padding: 5px;
+}

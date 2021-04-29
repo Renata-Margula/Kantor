@@ -1,43 +1,51 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link href="style.css" rel="stylesheet">
-    <script defer src="script.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Twój kantor</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link href="style.css" rel="stylesheet">
+  <script defer src="script.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Twój kantor</title>
 </head>
+
 <body class="container">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <form class="form js-form">
-      <fieldset class="form__fieldset">
-        <legend class="form__legend">TWÓJ KANTOR</legend>
-        <p>
-          <label>
-            <span class="form__label">Wprowadź kwotę (PLN):</span>
-            <input class="form__field js-pln" type="number" name="pln" step="any" min="0" required>
-          </label>
-        </p>
-        <p>
-          <label>
-            <span class="form__label">Wybierz walutę*:</span>
-            <select class="form__field js-currency" name="currencyType">
-              <option value="EUR">EUR (euro)</option>
-              <option value="GBP">GBP (funt szterling)</option>
-              <option value="HUF">HUF (forint (Węgry))</option>
-              <option value="RON">RON (lej rumuński)</option>
-            </select>
-          </label>
-        </p>
-        <button class="form__button js-button">Przelicz kwotę!</button>
-        <span class="form__label">Twoja kwota: <strong class="form__result js-result"></strong></span>
-      </fieldset>
-    </form>
-    <p>
-    <footer class="footer">*Kurs z dnia 22.04.2021 - według danych z Narodowego Banku Polskiego "Tabela nr 077/A/NBP/2021"</footer>
-    </p>
-  </body>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <form class="form js-form">
+    <fieldset class="form__fieldset">
+      <legend class="form__legend">TWÓJ KANTOR</legend>
+      <p>
+        <label>
+          <span class="form__label">Wprowadź kwotę (PLN):</span>
+          <input class="form__field js-pln" type="number" name="pln" step="any" min="0" required>
+        </label>
+      </p>
+      <p>
+        <label>
+          <span class="form__label">Wybierz walutę*:</span>
+          <select class="form__field js-currency" name="currencyType">
+            <option value="EUR">EUR (euro)</option>
+            <option value="GBP">GBP (funt szterling)</option>
+            <option value="HUF">HUF (forint (Węgry))</option>
+            <option value="RON">RON (lej rumuński)</option>
+          </select>
+        </label>
+      </p>
+      <button class="form__button js-button">Przelicz kwotę!</button>
+      <span class="form__label">Twoja kwota: <strong class="form__result js-result"></strong></span>
+    </fieldset>
+  </form>
+  <p>
+  <footer class="footer">*Kurs z dnia 22.04.2021 - według danych z Narodowego Banku Polskiego "Tabela nr 077/A/NBP/2021"
+  </footer>
+  </p>
+</body>
+
 </html>
